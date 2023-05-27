@@ -1,0 +1,84 @@
+#menu, #menu__check{
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    header div.name_band, header div.name_band ul, header div.name_band ul li{
+        display: inline;
+    }
+
+    header div.name_band nav{
+        width: 100%;
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    header div h3{
+        margin: 0;
+        padding: 0;
+    }
+
+    header div.name_band{
+        position: absolute;
+        display: flex;
+        place-content: space-between;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+    }
+    
+    #menu__check:not(:checked) ~ nav{
+    display: none;
+    }
+    
+    #menu__check:checked ~ nav{
+    display: block;
+    }
+    
+    #menu{
+        display: block;
+        font-size: 1.2em;
+        font-weight: bold;
+       position: absolute;
+       right: 0.5em;
+       top: 0.5em;
+       z-index: 9999;
+    }
+
+    #menu__cerrar{
+        display: none;
+    }
+
+    #menu__check:checked ~ label #menu__abrir{
+        display: none;
+    }
+
+    
+    #menu__check:checked ~ label #menu__cerrar{
+        display: block;
+    }
+
+    header nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        padding-top: 0.5em;
+        padding-right: 1.5em;
+        opacity: 0.8; 
+    }
+
+    header nav.nav_bar ul.nav_bar_ul{
+        display: block;
+        text-align: right;
+    }
+
+    header nav.nav_bar ul.nav_bar_ul li{
+        display: block;
+        text-align: right; 
+    }
+
+}

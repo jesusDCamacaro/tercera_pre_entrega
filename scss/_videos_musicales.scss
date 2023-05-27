@@ -1,0 +1,51 @@
+main{
+    grid-column: 1 / 7;
+    grid-row: 2 / 3;
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.container_card{
+    
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    display: flex;
+    background-color: rgba(123, 121, 121,0.7);
+    width: 23%;
+    padding: 1%;
+    border-radius: 5%;
+    transition: 1s;
+}
+
+.card iframe{
+    width: 100%;
+}
+
+.card_4{
+    display: none;
+}
+
+
+
+
+h3{
+    font-size: large;
+}
+
+
+.card:hover{
+    
+    transform: scale(1.2);
+
+}

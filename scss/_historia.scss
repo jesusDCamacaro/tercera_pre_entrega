@@ -1,0 +1,73 @@
+.page_historia {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 8% 15% 15% 15% 15% 15% 15%;
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    background: rgb(255,251,198);
+background: linear-gradient(90deg, rgba(255,251,198,0.6699054621848739) 0%, rgba(255,235,0,0.6054796918767507) 100%);
+  }
+
+
+.container_history{
+    display: grid;
+    grid-column: 1 / 7;
+    grid-row: 2 / 3;
+    margin-top: 3rem;
+}
+
+
+article{
+    grid-column:  1/ 7;
+    grid-row:  3/ 4;
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    
+    div, p{
+        background-color: rgba(123, 121, 121,0.7);
+        border-radius: 5%;
+        font-size: medium;
+
+    }
+}
+
+.origen{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 15px;
+}
+
+.exitos_tempranos{
+            grid-column: 2 / 7;
+            grid-row: 2 / 3;
+            margin: 15px;
+        }
+
+
+.lugares{
+    grid-column: 3 / 7;
+    grid-row:  6 / 7 ;
+    margin: 15px;
+}
+
+
+.proyectos_recientes{
+    grid-column: 5 / 7;
+    grid-row: 2 / 3;
+    margin: 15px;
+}
+
+
+
+.footer_historia{
+    grid-column: 1 / 7;
+    grid-row: 7 / 8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

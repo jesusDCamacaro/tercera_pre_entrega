@@ -1,0 +1,149 @@
+@media all and (max-width: 900px){
+    .animation_logo {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        height: 50%;
+        margin-top: 15%;
+    }
+  }
+
+
+ @media all and (max-width: 800px){
+    .animation_logo {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        height: 50%;
+        margin-top: 15%;
+    }
+  }
+
+@media all and (max-width: 700px){
+    .animation_logo {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        height: 50%;
+        margin-top: 15%;
+    }
+  }
+
+  @media all and (max-width: 600px){
+    .animation_logo {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        height: 40%;
+        margin-top: 15%;
+    }
+  }
+   
+  @media all and (max-width: 500px){
+    .animation_logo {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        height: 35%;
+        margin-top: 25%;
+    }
+  }
+  
+  @media all and (max-width: 400px){
+    .animation_logo {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        height: 30%;
+        margin-top: 30%;
+    }
+}
+
+
+
+
+// responsive contacto
+
+
+
+
+@media all and (max-width: 700px){
+    .container_img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_img{
+        img{
+        width: 85px;
+        margin: 40px; 
+        }
+        
+
+    }
+} 
+
+@media (max-width: 480px){
+    .container_img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media (max-width: 480px){
+    .container_img{
+        img{
+        width: 70px;
+        margin: 40px;
+        }
+
+    }
+}
+
+@media (max-width: 700px){
+    .informacion_contacto, h2{
+        display: none;
+
+    }
+}
+
+
+
+
+
+// responsive de videos_musicales 
+
+
+
+@media (max-width: 800px) {
+    .container_card {
+        .card_video{
+        display: none;     
+        }
+
+    }  
+
+    .card_4{
+        display: block;
+        width: 40%;
+        margin-top: 15%;
+    }
+
+
+    h5{
+        font-size: smaller;
+    }
+
+    .nuestros_videos{
+        display: none;
+    }
+}
