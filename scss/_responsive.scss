@@ -147,3 +147,17 @@
         display: none;
     }
 }
+
+
+
+// ---- responsive de historia ----
+
+
+
+@media all and(min-width: 1200px){
+    
+        .historia{
+            display: flex;
+            
+        }
+    }
