@@ -4,7 +4,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: calc(20% - 100px);
     background: rgb(255,251,198);
 background: linear-gradient(90deg, rgba(255,251,198,0.6699054621848739) 0%, rgba(255,235,0,0.6054796918767507) 100%);
   }
+
+  .footer_historia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(20% - 100px);
+    margin-top: 30%;
+    padding: 30px;
+    background: rgb(255,251,198);
+background: linear-gradient(90deg, rgba(255,251,198,0.6699054621848739) 0%, rgba(255,235,0,0.6054796918767507) 100%);
+}
   
