@@ -131,18 +131,14 @@
         }
 
     }  
-
     .card_4{
         display: block;
         width: 40%;
         margin-top: 15%;
     }
-
-
     h5{
         font-size: smaller;
     }
-
     .nuestros_videos{
         display: none;
     }
@@ -152,3 +148,152 @@
 
 // ---- responsive de historia ----
 
+
+
+@media (max-width :900px){
+    .container_history{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .div_history{
+            width: 80%;
+        }
+    }
+}
+
+
+@media (max-width: 1200px){
+    .footer_historia{
+    margin-top: 60vh;
+    }
+}
+
+
+@media (max-width: 1150px){
+    .footer_historia{
+    margin-top: 70vh;
+    }
+}
+
+
+@media (max-width: 1022px){
+    .footer_historia{
+    margin-top: 80vh;
+    }
+}
+
+
+@media (max-width: 1000px){
+    .footer_historia{
+    margin-top: 90vh;
+    }
+}
+
+@media (max-width: 950px){
+    .footer_historia{
+    margin-top: 110vh;
+    }
+}
+
+@media (max-width: 899px){
+    .footer_historia{
+    margin-top: 100vh;
+    }
+}
+
+@media (max-width: 899px){
+    .footer_historia{
+    margin-top: 100vh;
+    }
+}
+
+@media (max-width: 809px){
+    .footer_historia{
+    margin-top: 110vh;
+    }
+}
+
+@media (max-width: 750px){
+    .footer_historia{
+    margin-top: 120vh;
+    }
+}
+
+@media (max-width: 700px){
+    .footer_historia{
+    margin-top: 130vh;
+    }
+}
+
+@media (max-width: 650px){
+    .footer_historia{
+    margin-top: 140vh;
+    }
+}
+
+@media (max-width: 620px){
+    .footer_historia{
+    margin-top: 150vh;
+    }
+}
+
+@media (max-width: 590px){
+    .footer_historia{
+    margin-top: 160vh;
+    }
+}
+
+@media (max-width: 570px){
+    .footer_historia{
+    margin-top: 170vh;
+    }
+}
+
+@media (max-width: 534px){
+    .footer_historia{
+    margin-top: 190vh;
+    }
+}
+
+@media (max-width: 490px){
+    .footer_historia{
+    margin-top: 200vh;
+    }
+}
+
+@media (max-width: 472px){
+    .footer_historia{
+    margin-top: 210vh;
+    }
+}
+
+@media (max-width: 465px){
+    .footer_historia{
+    margin-top: 230vh;
+    }
+}
+
+@media (max-width: 449px){
+    .footer_historia{
+    margin-top: 250vh;
+    }
+}
+
+@media (max-width: 430px){
+    .footer_historia{
+    margin-top: 265vh;
+    }
+}
+
+@media (max-width: 420px){
+    .footer_historia{
+    margin-top: 272vh;
+    }
+}
+
+@media (max-width: 404px){
+    .footer_historia{
+    margin-top: 278vh;
+    }
+}
