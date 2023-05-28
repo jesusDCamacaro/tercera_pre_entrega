@@ -79,6 +79,17 @@
     header nav.nav_bar ul.nav_bar_ul li{
         display: block;
         text-align: right; 
+
+        a{
+            display: flex;
+            flex-direction: row-reverse;
+        }
     }
 
 }
+// nav{
+//     a{
+//         display: flex;
+//         flex-direction: row-reverse;
+//     }
+// }
